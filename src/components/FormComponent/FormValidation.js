@@ -1,20 +1,15 @@
+// function to contain input validation logic
 export default (name, value) => {
-  let valid;
   switch (name) {
     case "firstName":
-      valid = value.length > 1;
-      break;
+      return value.length > 1;
     case "lastName":
-      valid = value.length > 1;
-      break;
+      return value.length > 1;
     case "phoneNumber":
-      valid = /^\d+$/.test(value);
-      break;
+      return /^\d+$/.test(value);
     case "email":
-      valid = /^[^@]+@[^@]+\.[^@]+$/.test(value);
-      break;
+      return /^[^@]+@[^@]+\.[^@]+$/.test(value);
     default:
       break;
   }
-  return valid;
 };

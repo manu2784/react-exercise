@@ -12,8 +12,8 @@ function App() {
           <div className="header">
             <span className="logo">React Exercise</span>
             <div className="links">
-              <Link to="/">From</Link> 
-              <Link to="/table">Table</Link> 
+              <Link className="link" to="/">From</Link> 
+              <Link  className="link" to="/table">Table</Link> 
             </div>
           </div>
           <Route path="/" component={FormComponent} exact />

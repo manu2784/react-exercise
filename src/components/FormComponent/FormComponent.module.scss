@@ -7,24 +7,24 @@
   font-family: "helvetica";
 }
 
-form{
-    padding: 15px;
-    margin:0 auto;
-    width: 60%;
+form {
+  padding: 15px;
+  margin: 0 auto;
+  width: 60%;
 }
 .formHeader {
-width:100%;
-background-color:#2aa5f1;
-color:white;
-text-align: center;
-padding: 10px 0;
-font-weight: 400;
-font-size: 2rem;
+  width: 100%;
+  background-color: #2aa5f1;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-weight: 400;
+  font-size: 2rem;
 }
 
 .info {
-    color:green;
-    font-size: .8rem;
+  color: green;
+  font-size: 0.8rem;
 }
 
 .formField {
@@ -34,32 +34,32 @@ font-size: 2rem;
   flex-direction: column;
   justify-content: flex-start;
 
-  label{
+  label {
     text-align: left;
     font-size: 1.3rem;
     font-weight: 200;
     margin-bottom: 3px;
   }
-input {
+  input {
     height: 2.3rem;
     font-size: 1.1rem;
     border-radius: 3px;
     border: 1px solid #d0caca;
     padding-left: 7px;
     font-weight: 200;
-}
+  }
 
-input:focus {
+  input:focus {
     outline: none;
-}
- .error {
-     color:red;
-     font-size: 0.7rem;
-     text-align: left;
-     margin-top: 2px;
- }
-button {
-    width:70%;
+  }
+  .error {
+    color: red;
+    font-size: 0.7rem;
+    text-align: left;
+    margin-top: 2px;
+  }
+  button {
+    width: 70%;
     margin: 10px auto;
     font-size: 1.3rem;
     padding: 10px 0px;
@@ -68,9 +68,8 @@ button {
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 3px;
-}
-button:hover {
-    border:1px solid #28289e;
-}
-
+  }
+  button:hover {
+    border: 1px solid #28289e;
+  }
 }
