@@ -15,3 +15,6 @@ Run `npm install` commandin react-exercise directory
 
 ### Start Server
 Run `npm start` command in react-exercise directory and the app will be running on localhost:3000 if port 3000 is free.
+
+### Form and Table
+Home page show the Form exercise while /table page shows Table exercise. There are links provided in the top nav bar to toggle between form and table.
