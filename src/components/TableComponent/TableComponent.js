@@ -36,7 +36,7 @@ const TableComponent = () => {
           {data.map(row => (
             <tr key={row.email}>
               <td>{row.email}</td>
-              <td>{row.status}</td>
+              <td className={row.status === "complete"? styles.green : styles.red}>{row.status}</td>
               <td>
                 <button
                   onClick={() => {

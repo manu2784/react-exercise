@@ -33,9 +33,15 @@ table {
     border-bottom: 1px solid #cac1c1;
   }
   td {
-    padding: 15px;
+    padding: 7px;
+  }
+  .red {
+    color:red;
   }
 
+  .green {
+    color:green;
+  }
   td:last-child {
     border-left: 1px solid #cac1c1;
   }
