@@ -42,11 +42,11 @@ table {
   .green {
     color:green;
   }
-  td:last-child {
-    border-left: 1px solid #cac1c1;
-  }
-  td:first-child {
+
+  td:nth-child(2) {
+    text-transform: capitalize;
     border-right: 1px solid #cac1c1;
+    border-left: 1px solid #cac1c1;
   }
   tr:nth-child(even) {
     background-color: #efefef;
